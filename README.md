@@ -5,5 +5,4 @@ NoA ignite Task
 
 ## Build solution
 dotnet build 
-######  Run it
 Program.exe 01.01.2016 01.02.2017
