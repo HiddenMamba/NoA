@@ -8,7 +8,7 @@ namespace UnitTest
 {
     public class JapaneseFormatTests
     {
-                [Fact]
+        [Fact]
         public void When_provided_dates_differ_by_day_return_correct_format_in_JP_format()
         {
             // Arrage
@@ -34,7 +34,7 @@ namespace UnitTest
             // Assert
             Assert.Equal("2017/01/01-02/01",result);
         }
-                [Fact]
+        [Fact]
         public void When_provided_dates_differ_by_year_return_correct_format_in_JP_format()
         {
             // Arrage
@@ -76,7 +76,7 @@ namespace UnitTest
             // Assert
             Assert.Equal("01/01-02/01/2017",result);
         }
-                [Fact] 
+        [Fact] 
         public void When_provided_dates_differ_by_year_return_correct_format_in_US_format()
         {
             // Arrage
@@ -92,7 +92,7 @@ namespace UnitTest
     }
             public class DefaultFormatTests
     {
-                [Fact] 
+        [Fact] 
         public void When_provided_dates_differ_by_day_return_correct_format_in_Default_format()
         {
             // Arrage
@@ -118,7 +118,7 @@ namespace UnitTest
             // Assert
             Assert.Equal("01.01-05.02.2017",result);
         }
-                [Fact] 
+        [Fact] 
         public void When_provided_dates_differ_by_year_return_correct_format_in_Default_format()
         {
             // Arrage
